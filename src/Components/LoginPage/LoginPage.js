@@ -5,7 +5,7 @@ import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const LoginPage = () => {
-    const { isLoading, setIsLoading, error, setUser, setError, getEmail, getPassword, handelLogin, googleLogin } = useAuth();
+    const { setIsLoading, error, setUser, setError, getEmail, getPassword, handelLogin, googleLogin } = useAuth();
 
     const location = useLocation();
     const history = useHistory();
