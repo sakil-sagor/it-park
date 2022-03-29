@@ -63,7 +63,7 @@ const Register = () => {
                     <div className="flex mt-8">
                         <button onClick={googleLogin} className="mr-2 text-base block font-bold text-white px-4 py-2  bg-pink-700 hover:bg-pink-900 radiou rounded-sm ">Google Login</button>
 
-                        <button className="text-base block font-bold text-white px-4 py-2  bg-pink-700 hover:bg-pink-900 radiou rounded-sm ">Facebook Login</button>
+
                     </div>
                 </div>
                 <div className="col-span-2"></div>

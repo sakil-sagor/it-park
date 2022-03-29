@@ -14,14 +14,10 @@ const ServicesHome = () => {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                     {
 
-                        services.slice(0, 4).map(service => <Service key={service.id} service={service} ></Service>)
+                        services.map(service => <Service key={service.id} service={service} ></Service>)
                     }
                 </div>
-                <div className=" m-auto text-center mt-12">
-                    <NavLink to="/allServices">
-                        <button className=" text-lg text-white px-3 py-1 bg-pink-700  hover:bg-pink-900 px-12  radiou rounded-lg ">Show All Courses</button>
-                    </NavLink>
-                </div>
+
             </div>
         </div>
     );

@@ -7,6 +7,9 @@ import NotFound from './Components/NotFound/NotFound';
 import LoginPage from './Components/LoginPage/LoginPage';
 import AuthProvider from './Context/AuthProvider';
 import Register from './Components/Register/Register';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import ServicesDetails from './Components/ServicesDetails/ServicesDetails';
+import TeacherDetails from './Components/TeacherDetails/TeacherDetails';
 
 function App() {
   return (
@@ -21,6 +24,12 @@ function App() {
             <Route exact path="/home">
               <Home></Home>
             </Route>
+            <PrivateRoute exact path="/allServices/:idService">
+              <ServicesDetails></ServicesDetails>
+            </PrivateRoute>
+            <PrivateRoute exact path="/teachers/:idTeacher">
+              <TeacherDetails></TeacherDetails>
+            </PrivateRoute>
 
             <Route path="/register">
               <Register></Register>

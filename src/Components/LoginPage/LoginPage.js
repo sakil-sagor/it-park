@@ -74,18 +74,17 @@ const LoginPage = () => {
                             <input type="text" type="submit" className="cursor-pointer text-base block font-bold text-white px-4 py-2 uppercase bg-pink-700 hover:bg-pink-900
  radiou rounded-sm " value="login" />
                         </form>
-                        <NavLink className="text-pink-700 font-bold underline text-right block forget-link hover:text-pink-900 hover:no-underline" to='/'> Forget password?</NavLink>
+
                     </div>
 
                     <div className="mt-8">
                         <p>Don't have a account?  <NavLink className="text-pink-700 font-bold underline	hover:text-pink-900 hover:no-underline " to="/register"> Create now</NavLink></p>
 
                     </div>
-                    <div className="flex mt-8">
-                        <button onClick={loginGoogle} className="mr-2 text-base block font-bold text-white px-4 py-2  bg-pink-700 hover:bg-pink-900
+                    <div className=" mt-8 ">
+                        <button onClick={loginGoogle} className="mr-2 text-base block  font-bold text-white px-4 py-2  bg-pink-700 hover:bg-pink-900
  radiou rounded-sm ">Google Login</button>
-                        <button className="text-base block font-bold text-white px-4 py-2  bg-pink-700 hover:bg-pink-900
- radiou rounded-sm ">Facebook Login</button>
+
                     </div>
                 </div>
                 <div className="col-span-2"></div>

@@ -6,12 +6,12 @@ const Service = (props) => {
     const { id, language, seat, price, img, teacher, description } = props.service;
     return (
         <div className=" shadow-2xl rounded-xl">
-            <div className="service-img ">
-                <img className="rounded-t-xl" src={img} alt="" />
+            <div className="service-img px-3 pt-3 " style={{ height: '220px', width: 'auto' }}>
+                <img className="rounded-t-xl" style={{ width: '100%', height: '100%' }} src={img} alt="" />
             </div>
             <div className="p-4" >
                 <div>
-                    <h1 className="text-2xl font-semibold text-pink-900">{language} Course</h1>
+                    <h1 className="text-2xl font-semibold text-pink-900">{language} </h1>
                     <p className="text-gray-400">{description.substr(0, 100)}.</p>
                 </div>
 

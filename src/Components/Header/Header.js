@@ -1,9 +1,8 @@
-import userEvent from '@testing-library/user-event';
+
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import pro1 from '../../images/pro1.png'
-import ProfileShortcut from '../ProfileShortcut/ProfileShortcut';
 import './Header.css'
 
 const Header = () => {
@@ -29,14 +28,22 @@ const Header = () => {
                 </div>
                 {/* menu area  */}
                 <div className=" flex items-center	justify-end	">
-                    <div>
-                        <NavLink className="manu-item p-2 text-lg font-bold" to="/home">Home</NavLink >
-                        <NavLink className="manu-item p-2 text-lg font-bold" to="/allServices">Services</NavLink >
-                    </div>
+
                     <div>
                         {
                             user.email ?
-                                <img style={{ cursor: 'pointer' }} onClick={toggleText} className="w-12" src={pro1} alt="" />
+                                <div className='flex items-center'>
+                                    <div>
+                                        <span className='mr-4 font-bold'>{user.displayName}</span>
+
+                                    </div>
+                                    <div>
+                                        <img style={{ cursor: 'pointer' }} onClick={toggleText} className="w-12" src={pro1} alt="" />
+                                    </div>
+                                    <div>
+                                        <button className=" ml-4 text-white hover:text-gray-400 font-bold" onClick={handelLogout}>Log Out</button>
+                                    </div>
+                                </div>
                                 :
                                 < NavLink className="manu-item p-2 text-lg font-bold bg-red-800 rounded-md" to="/login"> LogIn </NavLink >
 
@@ -44,13 +51,9 @@ const Header = () => {
 
 
 
-                        {user.email ?
-                            <div className={profileState === 'Off' ? "active-profile-icon-area" : 'profile-icon-area'}>
-                                <ProfileShortcut ></ProfileShortcut>
-                            </div>
-                            :
-                            ''}
+
                     </div>
+
                 </div>
 
 

@@ -18,11 +18,7 @@ const TeachersHome = () => {
                         teachers.slice(0, 4).map(teacher => <Teacher key={teacher.id} teacher={teacher}></Teacher>)
                     }
                 </div>
-                <div className=" m-auto text-center mt-12">
-                    <NavLink to="/teachers">
-                        <button className=" text-lg text-white px-3 py-1 bg-pink-700  hover:bg-pink-900 px-12  radiou rounded-lg ">Show All Teachers.</button>
-                    </NavLink>
-                </div>
+
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 [
     {
         "id": 1001,
-        "language": "Spanish  ",
+        "language": "Web Development  ",
         "Category": "Conversation",
         "seat": 30,
         "price": 240,
@@ -13,7 +13,7 @@
     },
     {
         "id": 1002,
-        "language": "French ",
+        "language": "It Support ",
         "Category": "Mother tongue",
         "seat": 21,
         "price": 200,
@@ -25,7 +25,7 @@
     },
     {
         "id": 1003,
-        "language": "Italian ",
+        "language": "App Development ",
         "Category": "Conversation",
         "seat": 12,
         "price": 250,
@@ -37,7 +37,7 @@
     },
     {
         "id": 1004,
-        "language": "Chinese  ",
+        "language": "Graphics Design  ",
         "Category": "Conversation",
         "seat": 20,
         "price": 299,
@@ -49,7 +49,7 @@
     },
     {
         "id": 1005,
-        "language": "Russian ",
+        "language": "Ui & UX ",
         "Category": "Conversation",
         "seat": 17,
         "price": 260,
@@ -61,7 +61,7 @@
     },
     {
         "id": 1006,
-        "language": "Arabic ",
+        "language": "Basic JavaScript ",
         "Category": "Basic",
         "seat": 9,
         "price": 200,
@@ -73,7 +73,7 @@
     },
     {
         "id": 1007,
-        "language": "Swedish ",
+        "language": "Backend Development ",
         "Category": "Mother tongue",
         "seat": 23,
         "price": 210,
@@ -85,7 +85,7 @@
     },
     {
         "id": 1008,
-        "language": "Latin ",
+        "language": "Frontend Development ",
         "Category": "Conversation",
         "seat": 14,
         "price": 240,
@@ -97,7 +97,7 @@
     },
     {
         "id": 1009,
-        "language": "Turkish ",
+        "language": "Full Stack ",
         "Category": "Mother tongue",
         "seat": 25,
         "price": 230,
@@ -109,7 +109,7 @@
     },
     {
         "id": 1010,
-        "language": "Japanese ",
+        "language": "Ethical Hacking ",
         "Category": "Basic",
         "seat": 18,
         "price": 290,
