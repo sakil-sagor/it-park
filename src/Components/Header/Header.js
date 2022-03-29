@@ -32,10 +32,6 @@ const Header = () => {
                     <div>
                         <NavLink className="manu-item p-2 text-lg font-bold" to="/home">Home</NavLink >
                         <NavLink className="manu-item p-2 text-lg font-bold" to="/allServices">Services</NavLink >
-                        <NavLink className="manu-item p-2 text-lg font-bold" to="/teachers">Teachers</NavLink >
-                        <NavLink className="manu-item p-2 text-lg font-bold" to="/about">About Us</NavLink >
-                        <NavLink className="manu-item p-2 text-lg font-bold" to="/contact">Contact Us</NavLink >
-
                     </div>
                     <div>
                         {
