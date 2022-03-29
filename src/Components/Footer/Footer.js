@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href="#"> <i class="fab fa-accusoft px-2 text-white text-3xl"></i> </a>
                     </div>
                 </div>
-                <p className="p-6">© Copyright 2021 Aim-AS || Language School</p>
+                <p className="p-6">© Copyright 2021 TTC-IT.|| Language School</p>
             </div>
         </div>
     );

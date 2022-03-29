@@ -8,7 +8,7 @@ import './Header.css'
 const Header = () => {
     const { user, handelLogout } = useAuth();
 
-    const [profileState, setProfileState] = useState('Off');
+    const [setProfileState] = useState('Off');
 
 
     // const profileToggle = (index) => {
@@ -24,7 +24,7 @@ const Header = () => {
             <div className="container flex items-center	 justify-between m-auto p-4 text-white	">
                 {/* logo area  */}
                 <div className=" text-5xl	">
-                    <NavLink className="font-extrabold	" to="/home"> Aim-AS.</NavLink >
+                    <NavLink className="font-extrabold	" to="/home"> TTC-IT.</NavLink >
                 </div>
                 {/* menu area  */}
                 <div className=" flex items-center	justify-end	">
